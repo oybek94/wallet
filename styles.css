@@ -8,12 +8,12 @@ body {
 
 ::-webkit-scrollbar-track {
     border-radius: 10px;
-    background-color: #f2f2f2;
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #f2f2f2;
+    background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -32,6 +32,10 @@ body {
     margin: 0 auto;
     display: flex;
     max-height: 450px;
+    border-radius: 5px;
+    top: 200px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .wallets {
@@ -40,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: auto;
+    border-radius: 5px;
 }
 
 .wallets__header {
@@ -51,6 +56,7 @@ body {
 
 .wallets__title {
     color: #333333;
+    font-weight: 500;
 }
 
 .plus {
@@ -77,6 +83,10 @@ body {
     border: 1px solid #8793c6;
 }
 
+.active {
+    border: 1px solid #8793c6;
+}
+
 .card__container {
     padding: 15px 10px;
 }
@@ -96,4 +106,99 @@ body {
 .card__date {
     color: #727272;
     font-size: 12px;
+}
+
+
+/* BALANCE */
+
+.balance {
+    width: 500px;
+    overflow: auto;
+}
+
+.balance__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.balance__title {
+    font-weight: 500;
+}
+
+.balance__total {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+sup {
+    font-size: 0.6em;
+}
+
+hr {
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+}
+
+/* REPORTS */
+
+.report {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.report__item {
+    display: flex;
+    align-items: center;
+}
+
+.report__minus {
+    background-image: url("/img/minus.svg");
+    height: 24px;
+    width: 24px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.report__plus {
+    background-image: url("/img/plus.svg");
+    height: 24px;
+    width: 24px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.report__info-title,
+.report__info-short {
+    margin: 5px;
+}
+
+.report__info-title {
+    font-size: 18px;
+}
+
+.report__info-short {
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+.report__amount {
+    display: flex;
+    justify-content: flex-end;
+    width: 114px;
+}
+
+.blue {
+    color: #8797c6;
+}
+
+.green {
+    color: #8ace5e;
+
 }
