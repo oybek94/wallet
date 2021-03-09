@@ -1,127 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Loop 1 - Step 9</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <div class="app">
-    <aside class="wallets">
-      <div class="container">
-        <div class="wallets__header">
-          <h2 class="wallets__title">My Wallets</h2>
-          <div class="plus"></div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 1 - Step 9</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="wallets">
+        <div class="container">
+          <div class="wallets__header">
+            <h2 class="wallets__title">My Wallets</h2>
+            <div class="plus"></div>
+          </div>
 
-        <div class="card">
-          <div class="card__container">
-            <div class="card__logo"><img src="/img/visa.svg" alt="visa logo" height="35"></div>
+          <div class="card">
+            <div class="card__container">
+              <div class="card__logo">
+                <img src="/img/visa.svg" alt="visa logo" height="35" />
+              </div>
               <div class="card__serialnumber">**** **** **** 2562</div>
               <div class="card__date">Valid thru: 12/17</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card active">
-          <div class="card__container">
-            <div class="card__logo"><img src="/img/mastercard.svg" alt="visa logo" height="35"></div>
+          <div class="card active">
+            <div class="card__container">
+              <div class="card__logo">
+                <img src="/img/mastercard.svg" alt="visa logo" height="35" />
+              </div>
               <div class="card__serialnumber">**** **** **** 2101</div>
               <div class="card__date">Valid thru: 07/19</div>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <div class="card__container">
-            <div class="card__logo"><img src="/img/visa.svg" alt="visa logo" height="35"></div>
+          <div class="card">
+            <div class="card__container">
+              <div class="card__logo">
+                <img src="/img/visa.svg" alt="visa logo" height="35" />
+              </div>
               <div class="card__serialnumber">**** **** **** 8335</div>
               <div class="card__date">Valid thru: 09/17</div>
-          </div>
-        </div>
-
-      </div>
-    </aside>
-
-    <main class="balance">
-      <div class="container">
-        
-        <div class="balance__header">
-          <h2 class="balance__title">Current Balance</h2>
-          <div class="balance__total">$729.<sup>00</sup></div>
-        </div>
-        
-        <hr>
-
-        <div class="report">
-          <div class="report__item">
-            <div class="report__minus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">Apple iPhone 7, 128 GB</h2>
-              <p class="report__info-short">Electronics #32343424 - 23 July 2015</p>
             </div>
           </div>
-          <h3 class="report__amount blue">650.<sup>00</sup></h3>
         </div>
+      </aside>
 
-        <div class="report">
-          <div class="report__item">
-            <div class="report__plus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">Funds Added</h2>
-              <p class="report__info-short">Payment #5435 - 11 July 2015</p>
-            </div>
+      <main class="balance">
+        <div class="container">
+          <div class="balance__header">
+            <h2 class="balance__title">Current Balance</h2>
+            <div class="balance__total">$729.<sup>00</sup></div>
           </div>
-          <h3 class="report__amount blue">900.<sup>00</sup></h3>
-        </div>
 
-        <div class="report">
-          <div class="report__item">
-            <div class="report__minus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">Energy Bill</h2>
-              <p class="report__info-short">Other #745237423 - 11 July 2015</p>
+          <hr />
+
+          <div class="report">
+            <div class="report__item">
+              <div class="report__minus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">Apple iPhone 7, 128 GB</h2>
+                <p class="report__info-short">
+                  Electronics #32343424 - 23 July 2015
+                </p>
+              </div>
             </div>
+            <h3 class="report__amount blue">650.<sup>00</sup></h3>
           </div>
-          <h3 class="report__amount green">84.<sup>90</sup></h3>
-        </div>
 
-        <div class="report">
-          <div class="report__item">
-            <div class="report__minus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">The Eye Cinema Ticket</h2>
-              <p class="report__info-short">Entertaiment #32343424 - 10 July 2015</p>
+          <div class="report">
+            <div class="report__item">
+              <div class="report__plus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">Funds Added</h2>
+                <p class="report__info-short">Payment #5435 - 11 July 2015</p>
+              </div>
             </div>
+            <h3 class="report__amount blue">900.<sup>00</sup></h3>
           </div>
-          <h3 class="report__amount blue">40.<sup>00</sup></h3>
-        </div>
 
-        <div class="report">
-          <div class="report__item">
-            <div class="report__minus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">McFood Restaurant</h2>
-              <p class="report__info-short">Cafes #32448 - 10 July 2015</p>
+          <div class="report">
+            <div class="report__item">
+              <div class="report__minus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">Energy Bill</h2>
+                <p class="report__info-short">
+                  Other #745237423 - 11 July 2015
+                </p>
+              </div>
             </div>
+            <h3 class="report__amount green">84.<sup>90</sup></h3>
           </div>
-          <h3 class="report__amount blue">10.<sup>50</sup></h3>
-        </div>
 
-        <div class="report">
-          <div class="report__item">
-            <div class="report__minus"></div>
-            <div class="report__info">
-              <h2 class="report__info-title">Gas Station</h2>
-              <p class="report__info-short">Other #2138453 - 10 July 2015</p>
+          <div class="report">
+            <div class="report__item">
+              <div class="report__minus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">The Eye Cinema Ticket</h2>
+                <p class="report__info-short">
+                  Entertaiment #32343424 - 10 July 2015
+                </p>
+              </div>
             </div>
+            <h3 class="report__amount blue">40.<sup>00</sup></h3>
           </div>
-          <h3 class="report__amount blue">30.<sup>00</sup></h3>
-        </div>
 
-      </div>
-    </main>
-  </div>
-</body>
+          <div class="report">
+            <div class="report__item">
+              <div class="report__minus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">McFood Restaurant</h2>
+                <p class="report__info-short">Cafes #32448 - 10 July 2015</p>
+              </div>
+            </div>
+            <h3 class="report__amount blue">10.<sup>50</sup></h3>
+          </div>
+
+          <div class="report">
+            <div class="report__item">
+              <div class="report__minus"></div>
+              <div class="report__info">
+                <h2 class="report__info-title">Gas Station</h2>
+                <p class="report__info-short">Other #2138453 - 10 July 2015</p>
+              </div>
+            </div>
+            <h3 class="report__amount blue">30.<sup>00</sup></h3>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
